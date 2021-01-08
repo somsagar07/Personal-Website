@@ -1,0 +1,173 @@
+html{
+  scroll-behavior: smooth;
+}
+body
+{
+  overflow-x: hidden;
+}
+.container-fluid
+{
+     padding-left: 0;
+     padding-right: 0;
+}
+.navbar
+{
+  position: fixed;
+  top:0;
+  width: 100%;
+}
+.logo-nav{
+  opacity: 0.8;
+  transition: 800ms;
+}
+.logo-nav:hover{
+  opacity: 1;
+}
+.background
+{
+  background-image: url(../images/bg.jpg);
+  height: 100vh;
+  background-size: cover;
+}
+.phonebg
+{
+  position: absolute;
+  top: 30vw;
+  left: 12vw;
+  transform: rotate(-28deg) skewX(10deg);
+}
+.phonebg a
+{
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  transition: 800ms;
+}
+@media only screen and (min-width: 768px) {
+  .phonebg
+  {
+    position: absolute;
+    top: 30vw;
+    left: 12vw;
+    transform: rotate(-28deg) skewX(10deg);
+  }
+  .phonebg a
+  {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    transition: 800ms;
+  }
+  .line-1{
+    font-size: 100px;
+  }
+  .D2{
+    padding:15vh 25vh 5vh 25vh;
+  }
+  .intro{
+    margin-right: 25vw;
+      margin-top: 10vh;
+
+  }
+  .sagarimg{
+    width: 170px;
+    height: 150px;
+  }
+  .mar{
+    margin: 0vh 10vh 0vh 10vh;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .phonebg
+  {
+    display: none;
+  }
+  .line-1{
+    font-size: 75px;
+  }
+  .D2{
+    padding:15vh 5vh 5vh 5vh;
+  }
+  .intro{
+    margin-right: 0vw;
+    margin-top: 6vh;
+  }
+  .sagarimg{
+    width: 140px;
+    height: 130px;
+  }
+  .mar{
+    margin: 0vh -2vh 0vh -2vh;
+  }
+  .mobs{
+    padding-right: 13vw;
+  }
+}
+
+
+
+.lkdn:hover{
+  color: #515BD4;
+  font-size: 33px;
+}
+.git:hover{
+  color: #8134AF;
+  font-size: 33px;
+}
+.insta:hover{
+  color: #DD2A7B;
+  font-size: 33px;
+}
+
+
+.line-1{
+    position: relative;
+    top: 30%;
+    width: 24em;
+    margin-left: 2vw;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-20%);
+}
+.line-2{
+  position: relative;
+  top: 30%;
+  font-size: 25px;
+  width: 24em;
+  margin-left: 8vw;
+}
+.fa-arrow-circle-o-down{
+  position: absolute;
+  top: 90%;
+  left: 93%;
+  font-size: 50px;
+  color: black;
+}
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 2s steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 5em;}
+}
+
+.bg-dark{
+  background-color: transparent !important;
+  transition: 700ms ease;
+}
+.bg-dark.scrolled{
+    background-color: #343a40 !important;
+}
+.nav-link{
+  color:rgba(234,88,27,0.9);
+  font-weight: bold;
+  transition: 500ms;
+}
+.nav-link:hover{
+  color:rgba(234,88,27,1);
+}

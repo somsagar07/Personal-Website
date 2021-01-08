@@ -1,0 +1,59 @@
+.bg-p{
+  background-color: rgb(225,225,225);
+}
+.fa-envelope{
+  font-size: 50px;
+}
+.s{
+  font-size: 50px;
+}
+.fa-arrow-circle-up{
+  font-size: 50px;
+}
+.st4lin{
+  color: white;
+  transition: 800ms;
+  text-decoration: none;
+}
+.st4lin:hover{
+  color:#ea581b;
+  text-decoration: none;
+}
+
+
+.project img {
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.project img:hover{
+  cursor: pointer;
+}
+.project:hover .project img {
+  opacity: 0.3;
+  cursor: pointer;
+}
+
+.project:hover .middle {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.text {
+  background-color: white;
+  color: #ea581b;
+  font-size: 16px;
+  border: solid 5px #ea581b; 
+}

@@ -1,0 +1,13 @@
+.about-heading{
+  margin-top: 80px;;
+  color: #ea581b;
+}
+.bg2{
+  background-color: rgb(15, 15, 15);
+  color: lightgrey;
+}
+.sagarimg{
+  position: absolute;
+  right: 0;
+  border-radius: 50%;
+}
