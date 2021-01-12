@@ -19,6 +19,22 @@
 .dsanta{
   font-size: 40px;
 }
+@media only screen and (min-width: 768px) {
+  .work.row .col-2.bottom::after {
+    height: 50%;
+    left: 50%;
+    top: 50%;
+  }
+  .work.row .col-2.top::after {
+    height: 50%;
+    left: 50%;
+    top: 0;
+  }
+  .work.row .col-2.full::after {
+    height: 100%;
+    left: calc(50.2% - 3.2px);
+  }
+}
 .work.row .col-2 {
   align-self: stretch;
 }
@@ -27,20 +43,6 @@
   position: absolute;
   border-left: 3px solid #ED8D8D;
   z-index: 1;
-}
-.work.row .col-2.bottom::after {
-  height: 50%;
-  left: 50%;
-  top: 50%;
-}
-.work.row .col-2.full::after {
-  height: 100%;
-  left: calc(50% - 3px);
-}
-.work.row .col-2.top::after {
-  height: 50%;
-  left: 50%;
-  top: 0;
 }
 
 .timeline div {
